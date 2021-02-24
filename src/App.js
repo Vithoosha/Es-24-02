@@ -1,8 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
+import consola from "consola";
 
 function App() {
-  const greeting = () => console.log("ciao");
+  const greeting = () => consola.log("ciao");
   return (
     <div className="App">
       <header className="App-header">
